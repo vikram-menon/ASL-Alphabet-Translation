@@ -1,15 +1,6 @@
 import cv2
 import tensorflow as tf
 import numpy as np
-import time
-import numpy as np
-import seaborn as sns
-from keras.preprocessing.image import load_img, img_to_array
-import matplotlib.pyplot as plt
-import os
-from keras.layers import Dense, Input, Dropout, GlobalAveragePooling2D, Flatten, Conv2D, BatchNormalization, Activation, MaxPooling2D
-from keras.models import Model, Sequential
-from keras.optimizers import Adam
 
 
 
