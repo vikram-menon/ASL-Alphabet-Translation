@@ -1,7 +1,7 @@
 # ASL-Alphabet-Translation
 Using CNN to translate the ASL Alphabet
 
-Go to this medium article to understand the code:
+Go to this medium article to understand the code: https://medium.com/@vikrammenon03/using-ai-to-translate-sign-language-in-real-time-96fe8c8223ed
 
 
 For the live feed, I was unable to do it on google collab, and instead ran it on the control prompt on my computer.
