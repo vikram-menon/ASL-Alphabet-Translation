@@ -14,7 +14,6 @@ CATEGORIES = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "
 
 def prepare(filepath):
     IMG_SIZE = 48
-   # img_array = cv2.imread(filepath)  # read in the image, convert to grayscale
     new_array = cv2.resize(filepath, (IMG_SIZE, IMG_SIZE))  # resize image to match model's expected sizing
     return new_array.reshape(-1, IMG_SIZE, IMG_SIZE, 1) 
 
